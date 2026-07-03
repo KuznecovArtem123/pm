@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ООО «Проектмонтаж» — охранные и пожарные системы, видеонаблюдение, GSM-сигнализация в Выборге. Ваш дом — ваша крепость.">
+  <title>ООО «Проектмонтаж» — Охрана и защита имущества</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="static/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+
+  <!-- ===== Шапка (Navbar) ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <img src="static/icons/shield-fill-check.svg" alt="" class="icon-brand me-2">Проектмонтаж
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Проекты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+
+        <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-2 mt-3 mt-lg-0">
+          <a href="tel:+79967666751" class="navbar-phone">
+            <img src="static/icons/telephone.svg" alt="" class="icon-inline icon-inline-white me-1">+7 (996) 766-67-51
+          </a>
+          <a href="tel:88137854136" class="navbar-phone">
+            <img src="static/icons/telephone.svg" alt="" class="icon-inline icon-inline-white me-1">8 (81378) 54-136
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ===== Главный экран (Hero) ===== -->
+  <section id="hero" class="hero-section text-white">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-9 col-xl-8">
+          <p class="text-uppercase fw-semibold mb-2 opacity-75" style="letter-spacing: 2px; font-size: 0.85rem;">Охрана и безопасность</p>
+          <h1 class="hero-company mb-3">ООО «Проектмонтаж»</h1>
+          <p class="hero-slogan mb-3">ВАШ ДОМ – ВАША КРЕПОСТЬ</p>
+          <p class="hero-subtitle mb-4">
+            Предлагает услуги по охране и защите вашего имущества.
+          </p>
+          <a href="#contacts" class="btn btn-accent hero-btn">
+            <img src="static/icons/headset.svg" alt="" class="icon-inline icon-inline-white me-2">Оставить заявку / Вызвать специалиста
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== Виды работ (Услуги) ===== -->
+  <section id="services" class="py-5 my-3">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="section-title d-inline-block">Наши услуги</h2>
+        <p class="section-subtitle mt-4">
+          Комплексные решения по охране, пожарной безопасности и видеонаблюдению для дома и бизнеса
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Карточка 1: GSM-сигнализация -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card p-4">
+            <img src="static/icons/phone-vibrate.svg" alt="" class="service-icon mb-3">
+            <h5 class="card-title mb-3">GSM-сигнализация</h5>
+            <p class="text-muted mb-0 small">
+              Ваша безопасность – в одном звонке. Охранная система с GSM-оповещением. Мгновенное оповещение на мобильный телефон при любой угрозе. Независимая охрана. Работает даже без стационарного телефона и интернета. Надежная связь через GSM-канал.
+            </p>
+          </div>
+        </div>
+
+        <!-- Карточка 2: Охранная сигнализация -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card p-4">
+            <img src="static/icons/shield-lock.svg" alt="" class="service-icon mb-3">
+            <h5 class="card-title mb-3">Охранная сигнализация любой сложности</h5>
+            <p class="text-muted mb-0 small">
+              Круглосуточный контроль и мгновенное реагирование на проникновение с выводом на пульт полиции или любую охранную организацию. Будьте уверены в защите 24/7.
+            </p>
+          </div>
+        </div>
+
+        <!-- Карточка 3: АПС -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card p-4">
+            <img src="static/icons/fire.svg" alt="" class="service-icon mb-3">
+            <h5 class="card-title mb-3">Автоматическая пожарная сигнализация (АПС)</h5>
+            <p class="text-muted mb-0 small">
+              АПС – ваш электронный страж. Мгновенно реагирует на дым и огонь, предотвращая катастрофу.
+            </p>
+          </div>
+        </div>
+
+        <!-- Карточка 4: Видеонаблюдение -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card p-4">
+            <img src="static/icons/camera-video.svg" alt="" class="service-icon mb-3">
+            <h5 class="card-title mb-3">Установка системы видеонаблюдения</h5>
+            <p class="text-muted mb-0 small">
+              Видеонаблюдение – ваш круглосуточный контроль. Защитите бизнес и дом, получая доступ к камерам из любой точки мира. Современные системы обеспечивают полный обзор территории и мгновенное уведомление о движении.
+            </p>
+          </div>
+        </div>
+
+        <!-- Карточка 5: Проектирование -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card p-4">
+            <img src="static/icons/file-earmark-text.svg" alt="" class="service-icon mb-3">
+            <h5 class="card-title mb-3">Проектирование охранных и пожарных систем</h5>
+            <p class="text-muted mb-0 small">
+              Проектирование систем безопасности любой сложности. Имеем аккредитацию МЧС, СРО на проектные работы.
+            </p>
+          </div>
+        </div>
+
+        <!-- Карточка 6: Система оповещения о ЧС -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card p-4">
+            <img src="static/icons/volume-up.svg" alt="" class="service-icon mb-3">
+            <h5 class="card-title mb-3">Система оповещения о ЧС</h5>
+            <p class="text-muted mb-0 small">
+              Мгновенная передача тревожных сигналов и речевых сообщений для гарантированной эвакуации и безопасности людей.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Блок гарантии -->
+      <div class="alert guarantee-block d-flex align-items-center gap-3 mt-5 mb-0 p-4" role="alert">
+        <img src="static/icons/shield-check.svg" alt="" class="icon-guarantee">
+        <div>
+          <strong class="d-block mb-1" style="color: var(--color-accent); font-size: 1.1rem;">Гарантия качества!</strong>
+          Мы предоставляем гарантию 1 год на оборудование и монтажные работы.
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== Наши проекты (Галерея) ===== -->
+  <section id="projects" class="py-5 my-3" style="background-color: var(--color-light-bg);">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="section-title d-inline-block">Наши проекты</h2>
+      </div>
+
+      <div class="row g-4">
+        <!-- Проект 1 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card project-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80"
+                class="card-img-top"
+                alt="Монтаж АПС в бизнес-центре">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold mb-0" style="color: var(--color-primary); font-size: 0.95rem;">Монтаж АПС в бизнес-центре</h5>
+                <span class="project-tag">АПС</span>
+              </div>
+              <p class="text-muted small mb-0">Полный комплекс пожарной сигнализации, 4 этажа, 48 датчиков</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Проект 2 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card project-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80"
+                class="card-img-top"
+                alt="Установка видеонаблюдения в частном доме">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold mb-0" style="color: var(--color-primary); font-size: 0.95rem;">Видеонаблюдение в частном доме</h5>
+                <span class="project-tag">CCTV</span>
+              </div>
+              <p class="text-muted small mb-0">8 IP-камер, удалённый доступ, запись 30 суток</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Проект 3 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card project-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80"
+                class="card-img-top"
+                alt="Охранная сигнализация на складе">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold mb-0" style="color: var(--color-primary); font-size: 0.95rem;">Охранная сигнализация на складе</h5>
+                <span class="project-tag">ОС</span>
+              </div>
+              <p class="text-muted small mb-0">GSM-оповещение, вывод на пульт ЧОП, периметральная защита</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Проект 4 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card project-card">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80"
+                class="card-img-top"
+                alt="Проектирование систем безопасности офиса">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold mb-0" style="color: var(--color-primary); font-size: 0.95rem;">Проектирование систем безопасности офиса</h5>
+                <span class="project-tag">СРО</span>
+              </div>
+              <p class="text-muted small mb-0">Проект АПС и СОУЭ, согласование в МЧС, 1200 м²</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== Контакты ===== -->
+  <section id="contacts" class="contacts-section py-5 my-3">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="section-title d-inline-block">Контакты организации</h2>
+        <p class="section-subtitle mt-4">
+          Свяжитесь с нами или оставьте заявку — специалист перезвонит и проконсультирует бесплатно
+        </p>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        <!-- Левая колонка: контакты и форма -->
+        <div class="col-lg-6">
+          <div class="mb-4">
+            <div class="contact-info-item">
+              <img src="static/icons/geo-alt-fill.svg" alt="" class="icon-contact">
+              <div>
+                <strong>Адрес</strong><br>
+                г. Выборг, ул. М. Васильева, д. 3
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <img src="static/icons/telephone.svg" alt="" class="icon-contact">
+              <div>
+                <strong>Телефоны</strong><br>
+                <a href="tel:88137854136" class="text-decoration-none d-block">8 (81378) 54-136</a>
+                <a href="tel:+79967666751" class="text-decoration-none d-block">+7 (996) 766-67-51</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Форма обратной связи -->
+          <div class="card contact-form-card p-4">
+            <h5 class="fw-bold mb-3" style="color: var(--color-primary);">Заказать консультацию</h5>
+            <form id="contactForm" novalidate>
+              <div class="mb-3">
+                <label for="clientName" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="clientName" placeholder="Ваше имя" required>
+              </div>
+              <div class="mb-3">
+                <label for="clientPhone" class="form-label">Телефон</label>
+                <input type="tel" class="form-control" id="clientPhone" placeholder="+7 (___) ___-__-__" required>
+              </div>
+              <button type="submit" class="btn btn-accent w-100">
+                Заказать консультацию
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Правая колонка: карта -->
+        <div class="col-lg-6">
+          <div class="h-100 d-flex flex-column">
+            <h5 class="fw-bold mb-3" style="color: var(--color-primary);">Мы на карте</h5>
+            <div style="position:relative;overflow:hidden;">
+              <a href="https://yandex.ru/maps/969/vyborg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Выборг</a>
+              <a href="https://yandex.ru/maps/969/vyborg/house/ulitsa_mikhaila_vasilyeva_3/ZkEYcQJiS0cCQFhqfXtxdXtqbQ==/?ll=28.752055%2C60.705011&utm_medium=mapframe&utm_source=maps&z=16.7" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Михаила Васильева, 3 — Яндекс Карты</a>
+              <iframe 
+                class="container" 
+                src="https://yandex.ru/map-widget/v1/?ll=28.752055%2C60.705011&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgk3NzI5NzcxMjUSdtCg0L7RgdGB0LjRjywg0JvQtdC90LjQvdCz0YDQsNC00YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCS0YvQsdC-0YDQsywg0YPQu9C40YbQsCDQnNC40YXQsNC40LvQsCDQktCw0YHQuNC70YzQtdCy0LAsIDMiCg2NBOZBFbfRckI%2C&z=16.7"
+                height="400"
+                frameborder="1"
+                allowfullscreen="true" 
+                style="position:relative;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== Подвал (Footer) ===== -->
+  <footer class="footer-custom py-4">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-5 text-center text-md-start">
+          <span class="small">&copy; 2026 ООО «Проектмонтаж». Все права защищены.</span>
+        </div>
+
+        <div class="col-md-2 text-center">
+          <a href="https://t.me/+79967666751" class="social-link me-2" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+            <img src="static/icons/telegram.svg" alt="" class="icon-social">
+          </a>
+          <a href="https://wa.me/79967666751" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <img src="static/icons/whatsapp.svg" alt="" class="icon-social">
+          </a>
+        </div>
+
+        <div class="col-md-5 text-center text-md-end">
+          <a href="tel:+79967666751" class="fw-semibold">
+            <img src="static/icons/telephone.svg" alt="" class="icon-inline icon-inline-white me-1">+7 (996) 766-67-51
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap 5 JS -->
+  <script src="static/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Плавный скролл и обработка формы -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+      anchor.addEventListener('click', function (e) {
+        var targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+
+        var target = document.querySelector(targetId);
+        if (!target) return;
+
+        e.preventDefault();
+
+        var navbarCollapse = document.getElementById('mainNavbar');
+        if (navbarCollapse.classList.contains('show')) {
+          bootstrap.Collapse.getOrCreateInstance(navbarCollapse).hide();
+        }
+
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('clientName').value.trim();
+      var phone = document.getElementById('clientPhone').value.trim();
+
+      if (!name || !phone) {
+        alert('Пожалуйста, заполните все поля.');
+        return;
+      }
+
+      alert('Спасибо, ' + name + '! Ваша заявка принята. Мы свяжемся с вами по номеру ' + phone + '.');
+      this.reset();
+    });
+
+  </script>
+</body>
+</html>
